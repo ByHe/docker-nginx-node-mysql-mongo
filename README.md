@@ -10,6 +10,7 @@
 ### HowTo
 
 #### node-server
+Skall köras via port 5000 eller ändra i nginx.conf.
     www/server
 
 Kör i terinalen: 
