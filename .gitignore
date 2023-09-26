@@ -1,9 +1,13 @@
 .DS_Store
 
-wwww/nodejs/node_modules/*
+node_modules/*
+.env
 
 db/*
 !db/.gitkeep
+
+mongodb/*
+!mongodb/.gitkeep
 
 !nginx
 nginx/*
@@ -12,3 +16,4 @@ nginx/*
 !php
 php/*
 !php/php.ini
+
