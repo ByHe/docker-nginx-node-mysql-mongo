@@ -1,7 +1,7 @@
 ## Docker-compose LEMP med NodeJS
 ### Inkluderar
 - nginx -> localhost:80
-- node -> localhost: 5000
+- node (api) -> localhost: 5000
 - php   
 - mariadb -> mariadb
 - phpmyadmin -> localhost:8080
