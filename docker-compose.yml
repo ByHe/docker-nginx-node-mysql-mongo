@@ -23,10 +23,10 @@ services:
   client:
     image: node:latest
     container_name: client
-    working_dir: /www/
+    working_dir: /www/client
     command: "npm run dev -- --host 0.0.0.0"
     volumes:
-      - ./www/client:/client
+      - ./www/client:/www/client
 
 
   mariadb:
